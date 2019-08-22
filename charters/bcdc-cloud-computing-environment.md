@@ -1,6 +1,6 @@
 # BCDC Cloud Computing Environment (Terra)
 ## Description
-Describe the BICCN entity in 2-3 sentences. Consider this section as your "elevator pitch" to new community members.
+We connect, develop, add value to, and train our community around the BCDC Cloud Computing Environment. This is a cloud-native environment that enables many functionality including cloud storage, scalable data processing pipelines, and horizontally scalable data-science environments.
 
 # Roles
 [Principal Investigator] Timothy Tickle (ttickle@broadinstitute.org)   
