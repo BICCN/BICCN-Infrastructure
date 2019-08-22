@@ -9,7 +9,7 @@ We connect, develop, add value to, and train our community around the BCDC Cloud
 [Project Manager] Cara Mason (cara@broadinstiute.org)
 
 ## Definitions
-*pipeline:* A collection of one or more functional tasks that operate on input data and, from that, transform the input data, or derive features often used to interpret the input data. In a high throughput setting, these tasks are often automated to be performed in a batch setting.
+**pipeline:** A collection of one or more functional tasks that operate on input data and, from that, transform the input data, or derive features often used to interpret the input data. In a high throughput setting, these tasks are often automated to be performed in a batch setting.
 
 ## Objectives
 - To create and maintain a cloud native, horizontally scalable environment for use by the BICCN Community.   
@@ -18,6 +18,7 @@ We connect, develop, add value to, and train our community around the BCDC Cloud
 ## In-scope
 - Connect data flow from BICCN Ingest services and archives to the BCDC Cloud Computing Environment to enable the processing of sequence-based data.   
 - Work with community members to translate community pipelines and pipelines of high value to cloud-native, horizontally scalable data processing pipelines.   
+- Work with the BICCN community to improve pipelines currently found in the BCDC Cloud Computing Environment.
 - Perform training on how to use the BCDC Cloud Computing Environment to BICCN community members, those wanting to process consortium data, and those who want to use a consortium derived pipeline (on private or public data).
 
 ## Out-of-scope
