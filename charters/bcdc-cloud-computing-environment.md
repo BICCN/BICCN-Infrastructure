@@ -8,8 +8,8 @@ We connect, develop, add value to, and train our community around the BCDC Cloud
 [Customer Success and Education] Salin Thomas (salin@broadinstitute.org)  
 [Project Manager] Cara Mason (cara@broadinstiute.org)
 
-## Definitions [Optional]
-Define entity specific terminology to ensure that your charter is comprehensible to new community members.
+## Definitions
+*pipeline:* A collection of one or more functional tasks that operate on input data and, from that, transform the input data, or derive features often used to interpret the input data. In a high throughput setting, these tasks are often automated to be performed in a batch setting.
 
 ## Objectives
 - To create and maintain a cloud native, horizontally scalable environment for use by the BICCN Community.   
