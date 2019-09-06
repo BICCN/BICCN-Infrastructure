@@ -1,5 +1,5 @@
 # Creating a Charter for Review  
-These are instructions on how to make a pull-request (and add a charter to the repo for review).  
+These are instructions on how to make a pull request (and add a charter to the repo for review).  
 
 ## Sign-in  
 Please sign into GitHub in the upper-right corner.  
@@ -26,19 +26,20 @@ Click "Create new file"
 Name the charter  
 ![Name charter](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/name-new-charter.png)
 Paste in the template and edit as needed.  
-Here is a [markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) as a formatting reference. You can click on the "Preview changes" tab as needed to see the formatting rendered. To continue editing simply click back on the "<> Edit file" tab.  
+Here is a [markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) as a formatting reference. You can click on the "Preview" or "Preview changes" tab as needed to see the formatting rendered. To continue editing simply click back on the "<> Edit file" tab.  
 Save at the bottom of the page by making a commit (feel free to do this as needed).  
 ![Commit changes](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/commit-changes-charter.png)
 
 ## Make a Pull Request  
 Go to the [BICCN repo](https://github.com/BICCN/BICCN-Infrastructure-Draft) .  
-Click the "New Pull Request" button.  
-Click "Compare across forks"
+Click the "New pull request" button.  
+![New PR](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/click-new-pr.png)
+Click "compare across forks"
 ![Compare forks](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/click-compare-forks.png)
 Select your fork for your charter. 
 ![Select fork](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/select-fork.png)
 Name and add (optional comment).  
 ![Name PR](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/name-pr.png)
-Click "Create Pull Request"  
+Click "Create pull request"  
 ![Click PR](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/click-pr.png)
 Done!  
