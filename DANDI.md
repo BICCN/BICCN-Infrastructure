@@ -4,8 +4,8 @@
 DANDI is a platform for publishing, sharing, and processing neurophysiology data funded by the BRAIN Initiative. We will work with BICCN and other BRAIN awardees to curate data using community standards, and to make data FAIR (Findable, Accessible, Interoperable, and Reusable). We will use DANDI to help improve our understanding of the brain.
 
 # Roles
-- [Primary Investigator] Satrajit Ghosh (satra@mit.edu)
-- [Primary Investigator] Yaroslav Halchenko (yoh@dartmouth.edu)
+- [Principal Investigator] Satrajit Ghosh (satra@mit.edu)
+- [Principal Investigator] Yaroslav Halchenko (yoh@dartmouth.edu)
 - [NWB and community liaison] Ben Dichter (ben.dichter@gmail.com)
 - [Co-Investigator] Michael Grauer (michael.grauer@kitware.com)
 
@@ -56,3 +56,6 @@ Our goals for the archive, we think, are rather simple:
 - [Neurostars](https://neurostars.org/) For general questions about the archive
 - [Twitter: @dandiarchive](https://twitter.com/dandiarchive)
 - [Github](https://github.com/dandi)
+
+## Funding
+[NIMH 1R24MH117295-01A1](https://projectreporter.nih.gov/project_info_description.cfm?aid=9795271)
