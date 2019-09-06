@@ -18,12 +18,12 @@ Click on the template document.
 Click on edit to select (and copy) the markdown.  
 ![Copy template](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/copy-template.png)
 
-## Write Update the Charter.md with Your Charter Details  
+## Write Your Charter.md  
 Click "Code"  
 ![Click code](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/click-code.png)
 Click "Create new file"  
 ![Click create new file](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/click-create-new-file.png)
-Name the charter  
+Name the charter. If you give the file the ".md" extension, GitHub will know to display the markdown as a formatted file.  
 ![Name charter](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/pictures/name-new-charter.png)
 Paste in the template and edit as needed.  
 Here is a [markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) as a formatting reference. You can click on the "Preview" or "Preview changes" tab as needed to see the formatting rendered. To continue editing simply click back on the "<> Edit file" tab.  
