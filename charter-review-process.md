@@ -1,5 +1,5 @@
 # Charter Review Process  
-This is the current process for having a charter reviewed and approved. This is a living document, improvements are welcome. Please raise them to the Infrastructure Working (IWG) Group.   
+This is the current process for having a charter reviewed and approved by the Infrastructure Working Group (IWG). This is a living document, improvements are welcome. Please raise them to the IWG.   
 
 ## Make a Charter  
 Please make a charter. Please use [this template](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/charter-template.md). The charter should be submitted as a PR. Here are instructions to make a [PR](https://github.com/BICCN/BICCN-Infrastructure-Draft/blob/master/creating-a-charter-for-review.md).
