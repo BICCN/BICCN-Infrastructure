@@ -24,6 +24,7 @@ CCF: The CCF is the "common coordinate framework", a three-dimensional coordinat
 - Provide searchable metadata for consortium datasets.
 - Host more advanced data search and navigation for a subset of experiments including both metadata and extracted features.
 - Support CCF mapping through the provision of instructions and tools to data generation centers.
+(add info about workshop and coordinating activities)
 
 ## Out-of-scope
 - Performing CCF mapping for data generators.
