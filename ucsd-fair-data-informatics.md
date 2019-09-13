@@ -1,6 +1,6 @@
 # BICCN Entity or Platform Name
 ## Description
-The University of California, San Diego (UCSD) Fair Data and Informatics Laboratory (FDI Lab)
+The University of California, San Diego (UCSD) Fair Data and Informatics Laboratory (FDI Lab)is home to the Neuroscience Information Framework (NIF). NIF has extensive experience in community engagement, collaborative standards building,  effective processes for sharing, federating, and integrating neuroscience data, information, and knowledge. 
 
 # Roles
 [Principal Investigator] Maryann Martone (maryann@ncmir.ucsd.edu)   
