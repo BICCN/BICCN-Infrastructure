@@ -33,8 +33,8 @@ By containing knowledge from varied sources in one resource, we allow traversal 
 
 Our specific stated aims are:
 - Aim 1. Establish the Neuroscience Multi-Omic (NeMO) Data Store, encompassing data ingestion, and identification and development of controlled vocabularies & ontologies, working closely with the BD2K working groups and others to encourage the use of established standards commonly used for omics data; provision of stable and unique identifiers; and data storage and integration, utilizing OSDF.
--Aim 2. Perform Data Processing, from quality control processing through analysis pipelines, and promote accessibility of public and controlled datasets as well as standard operating procedures and documentation through the NeMO website and NeMO data portal.
--Aim 3. Provide Resources for Users to Engage in Analysis and Visualization, by performing continuous use case review and development, enabling analysis and data visualization for individual users, and enabling appropriate data nad analysis access to the BRAIN Initiative Analysis centers
+- Aim 2. Perform Data Processing, from quality control processing through analysis pipelines, and promote accessibility of public and controlled datasets as well as standard operating procedures and documentation through the NeMO website and NeMO data portal.
+- Aim 3. Provide Resources for Users to Engage in Analysis and Visualization, by performing continuous use case review and development, enabling analysis and data visualization for individual users, and enabling appropriate data nad analysis access to the BRAIN Initiative Analysis centers
 
 ## In-scope
 Describe the boundaries of this entity's efforts as defined by the specific user or technical needs [without implementation details].
@@ -46,17 +46,17 @@ Describe specific user or technical needs which are not addressed to clarify the
 Describe relationships or commonalities with other current charters
 
 # Communication
--[NeMO Website](https://nemoarchive.org/)
-=[NeMO Data Portal](https://portal.nemoarchive.org/)  
+- [NeMO Website](https://nemoarchive.org/)
+- [NeMO Data Portal](https://portal.nemoarchive.org/)  
 
 ## Mailing Lists
 [Name](mailto:team@data.humancellatlas.org)   
 Purpose of the mailing list.
 
 ## Github repositories
--[Documentation](https://github.com/nemoarchive/documentation) Documentation on submitting, viewing, browsing or searching for data, downloading data, or exporting data to Broad Institute's Terra Platform    
--[Analytics](https://github.com/nemoarchive/analytics) Repository for the NeMO Analytics project
--[Terra](https://github.com/nemoarchive/firecloud-client) Utility for transfers from NeMO to Terra, formerly called Firecloud
+- [Documentation](https://github.com/nemoarchive/documentation) Documentation on submitting, viewing, browsing or searching for data, downloading data, or exporting data to Broad Institute's Terra Platform    
+- [Analytics](https://github.com/nemoarchive/analytics) Repository for the NeMO Analytics project
+- [Terra](https://github.com/nemoarchive/firecloud-client) Utility for transfers from NeMO to Terra, formerly called Firecloud
 
 ## Funding
--[NIH R24 MH114788](https://projectreporter.nih.gov/project_info_description.cfm?aid=9748608)
+- [NIH R24 MH114788](https://projectreporter.nih.gov/project_info_description.cfm?aid=9748608)
