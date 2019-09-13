@@ -1,6 +1,6 @@
 # BICCN Entity or Platform Name
 ## Description
-Describe the BICCN entity in 2-3 sentences. Consider this section as your "elevator pitch" to new community members.
+The University of California, San Diego (UCSD) Fair Data and Informatics Laboratory (FDI Lab)
 
 # Roles
 [Principal Investigator] Maryann Martone (maryann@ncmir.ucsd.edu)   
@@ -9,19 +9,23 @@ Describe the BICCN entity in 2-3 sentences. Consider this section as your "eleva
 [Knowledge Engineer] Tom Gillespie (tom.h.gillespie@gmail.com)   
 
 ## Definitions [Optional]
-Define entity specific terminology to ensure that your charter is comprehensible to new community members.
+* __NIFSTD__ Neuroscience Information Framework (NIF) Standard ontology (NIFSTD) is a neuroscience ontology that maintains an extensive set of terms and concepts important for the domains of neuroscience and biology.
+* __InterLex__ A dynamic lexicon of biomedical terms built on the foundation of NeuroLex
+
 
 ## Objectives
-Describe the incremental, observable, and measurable high-level outcomes this entity will provide to the BICCN.
+* Develop a semantic framework for annotating and organizing cell level data by maturing community efforts to create a phenotype-based nervous system cell type ontology and phenotype representation
+* Work with the community to develop and implement spatial and semantic standards for managing heterogeneous brain cell census data types
 
 ## In-scope
-Describe the boundaries of this entity's efforts as defined by the specific user or technical needs [without implementation details].
+* Create an effective strategy for semantic modeling and classifying neurons
+* Create a comprehensive ontology that represents canonical types (e.g., Purkinje cell), cell classes (e.g., GABAergic neurons) and individuals (Cell X from laboratory Y) based on neuronal properties and phenotypes.
+* Establish a community platform for consortium members and beyond to easily view the ontology and to recommend and provide feedback on terms in the ontology.
+* Provide the neuron ontology and other NIF ontologies covering additional relevant domains, e.g., small molecules, subcellular structures, anatomical structures, via our open-source terminology/ontology service SciGraph
+* Work with the BICCN community to help ensure that infrastructure and tools conform to best practices for making data FAIR:  Findable, Accessible, Interoperable and Reusable  
 
 ## Out-of-scope
-Describe specific user or technical needs which are not addressed to clarify the boundaries of the entity.
-
-## Disambiguation [Optional]
-Describe relationships or commonalities with other current charters
+* TBD
 
 # Communication
 ## Mailing Lists
@@ -43,4 +47,5 @@ SciGraph aims to represent ontologies and data described using ontologies as a N
 Documentation for the NIF Ontology including neuron specific ontology documentation.
 
 ## Funding
-Link to the NIH Reporter link or appropriate reference
+[A Community Resource For Single Cell Data In The Brain](https://projectreporter.nih.gov/project_info_description.cfm?aid=9415946)
+
