@@ -41,7 +41,7 @@ As an exercise, let’s assume you lose all the data in your lab. What would you
 - Support browser-based visualization of data
 - Provide tutorials and training for users to use the archive
 - We will allow limited storage of private data with an embargo period, after which data becomes public
-- We will work with the BCDC portal to ensure alignment of metadata between the two portals
+- Support data exchange with BCDC and or other archives as needed to support linking patchseq data as well as to enable BCDC integration to enable a user at Cell Registry to be directed to a subset of data at DANDI
 
 ## Out-of-scope
 - Develop neurophysiology standards
