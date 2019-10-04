@@ -20,6 +20,8 @@ DANDI is a platform for publishing, sharing, and processing neurophysiology data
 
 [NIDM - Neuro Imaging Data Model](http://nidm.nidash.org/). A [W3C-PROV](https://www.w3.org/TR/2013/REC-prov-dm-20130430/) based specification for capturing experimental representation, workflow specification and execution, and analysis results for neuroimaging. Stitches metadata of objects through a directed graph model. BIDS and NIDM [complement each other](https://f1000research.com/documents/8-1373).
 
+Derived data. Derived data are files/objects created by software transformations of the data captured by a data capturing device (electrode, microscope, MRI scanner) or other derived data. 
+
 ## Objectives
 - Develop a cloud platform for versioned neurophysiology data storage for the purposes of collaboration and dissemination of data and software containers. 
 - Provide easy to use tools for neurophysiology data submission and access in the archive; and 
@@ -39,6 +41,7 @@ As an exercise, let’s assume you lose all the data in your lab. What would you
 - Support browser-based visualization of data
 - Provide tutorials and training for users to use the archive
 - We will allow limited storage of private data with an embargo period, after which data becomes public
+- We will work with the BCDC portal to ensure alignment of metadata between the two portals
 
 ## Out-of-scope
 - Develop neurophysiology standards
