@@ -14,26 +14,24 @@ CCF: The CCF is the "common coordinate framework", a three-dimensional coordinat
 ## Objectives
 - Develop a data collection, quantification, and mapping framework for managing data and information across diverse repositories.
 - Host a web portal to provide information about the consortium, enable users to find useful datasets, and direct users to raw data at archives.
+- Facilitate consortium communications and collaboration. 
 - Serve as a "data archive" for extracted features suitable for search and navigation in the web portal.
 
 ## In-scope
 - Manage metadata standards and achieve community alignment.
 - Develop policies, processes and infrastructure to support metadata collection and management.
-- Provide inventory reporting for raw data.
-- Develop web portal for basic consortium information.
+- Provide centralized inventory reporting for raw data at R24s.
+- Develop and maintain web portal for basic information about the consortium.
 - Provide searchable metadata for consortium datasets.
 - Host more advanced data search and navigation for a subset of experiments including both metadata and extracted features.
 - Support CCF mapping through the provision of instructions and tools to data generation centers.
+- Support centralization of communications. 
+- Organize collaboration opportunities through BCDC-sponsored workshops and face-to-face meetings.
 
 ## Out-of-scope
 - Performing CCF mapping for data generators.
 - Providing advanced visualization for all datasets.
 
 # Communication
-## Slack Channels
-[SlackApp/channel](https://slackapp.slack.com/messages/channel)   
-Describe the purpose of the channel.
+- Communication channels will be added as appropriate.
 
-## Github repositories
-[BCDC documentation](https://github.com/BICCN/BCDC-documentation)   
-NOTE: this repository is currently outdated.
