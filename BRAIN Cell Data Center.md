@@ -35,3 +35,5 @@ CCF: The CCF is the "common coordinate framework", a three-dimensional coordinat
 # Communication
 - Communication channels will be added as appropriate.
 
+## Funding
+[A Community Resource for Single Cell Data in the Brain](https://projectreporter.nih.gov/project_info_description.cfm?aid=9415946&icde=36177968&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball=)
