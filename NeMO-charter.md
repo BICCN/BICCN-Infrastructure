@@ -20,7 +20,6 @@ Define entity specific terminology to ensure that your charter is comprehensible
 - OSDF - Open Science Data Framework architecture
 
 ## Objectives
-Describe the incremental, observable, and measurable high-level outcomes this entity will provide to the BICCN.
 
 The NeMO Archive encompasses the following data types:
 - Genomic regions associated with brain abnormalities and disease
@@ -38,6 +37,16 @@ Our specific stated aims are:
 
 ## In-scope
 Describe the boundaries of this entity's efforts as defined by the specific user or technical needs [without implementation details].
+- Serve as a primary data archive for BICCN omics datasets described above
+- Provide a web portal for basic NeMO information 
+- Support BICCN researchers in deposition of raw and processed data to NeMO archives 
+- perform basic checksum-based QC and reorganization of submitted data before public release
+- Allow for restricted access to private datasets
+- Provide public browsable and queryable access to BICCN consortium metadata and data types described above.
+- Allow for easy exchange of raw and processed data between NeMO and Terra
+- Allow for easy exchange of raw data between NeMO and NeMO Analytics
+- somethign about metadata standards
+- something about outreach
 
 ## Out-of-scope
 Describe specific user or technical needs which are not addressed to clarify the boundaries of the entity.
@@ -50,8 +59,6 @@ Describe relationships or commonalities with other current charters
 - [NeMO Data Portal](https://portal.nemoarchive.org/)  
 
 ## Mailing Lists
-[Name](mailto:team@data.humancellatlas.org)   
-Purpose of the mailing list.
 
 ## Github repositories
 - [Documentation](https://github.com/nemoarchive/documentation) Documentation on submitting, viewing, browsing or searching for data, downloading data, or exporting data to Broad Institute's Terra Platform    
