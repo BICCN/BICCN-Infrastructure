@@ -10,10 +10,10 @@ The Neuroscience Multi-Omic (NeMO) Archive is a data repository specifically foc
 - [Analyst, Data Manager] Heather Creasy (hhuot@som.umaryland.edu)   
 - [Outreach Coordinator] Carlo Colantuoni (email@email.com)
 - [Project Manager] Robert Carter (email@email.com)
-- [Software Engineer] Victor Felix (email@email.com) 
-- [Software Engineer] Jonathan Creabtree (email@email.com) 
-- [Software Engineer] Shaun Adkins (email@email.com) 
-- [Web Developer] Lance Nickel (email@email.com) 
+- [Software Engineer] Victor Felix (email@email.com)
+- [Software Engineer] Jonathan Creabtree (email@email.com)
+- [Software Engineer] Shaun Adkins (email@email.com)
+- [Web Developer] Lance Nickel (email@email.com)
 
 ## Definitions [Optional]
 Define entity specific terminology to ensure that your charter is comprehensible to new community members.
@@ -38,15 +38,15 @@ Our specific stated aims are:
 ## In-scope
 Describe the boundaries of this entity's efforts as defined by the specific user or technical needs [without implementation details].
 - Serve as a primary data archive for BICCN omics datasets described above
-- Provide a web portal for basic NeMO information 
-- Support BICCN researchers in deposition of raw and processed data to NeMO archives 
-- perform basic checksum-based QC and reorganization of submitted data before public release
-- Allow for restricted access to private datasets
-- Provide public browsable and queryable access to BICCN consortium metadata and data types described above.
-- Allow for easy exchange of raw and processed data between NeMO and Terra
-- Allow for easy exchange of raw data between NeMO and NeMO Analytics
-- somethign about metadata standards
-- something about outreach
+- Provide a web portal for basic NeMO information
+- Support BICCN researchers in deposition of raw and processed data to NeMO archives
+- Perform basic checksum-based QC and reorganization of submitted data before public release
+- Allow for restricted access to private/protected datasets
+- Provide public browsable and queryable access to BICCN consortium metadata and data types described above
+- Allow for easy exchange of raw and processed data between NeMO and Broad Institute's Terra Platform
+- Allow for easy exchange of data between NeMO and NeMO Analytics, a tool for analysis and visualization of omic data
+- Work with BCDC and consortium members to develop, establish, or adapt community generated metadata standards
+- Engage in community outreach to understand community needs, develop tools to meet these needs, and ensure the utilization of tools and data by the community
 
 ## Out-of-scope
 Describe specific user or technical needs which are not addressed to clarify the boundaries of the entity.
@@ -63,7 +63,7 @@ Describe relationships or commonalities with other current charters
 ## Github repositories
 - [Documentation](https://github.com/nemoarchive/documentation) Documentation on submitting, viewing, browsing or searching for data, downloading data, or exporting data to Broad Institute's Terra Platform    
 - [Analytics](https://github.com/nemoarchive/analytics) Repository for the NeMO Analytics project
-- [Terra](https://github.com/nemoarchive/firecloud-client) Utility for transfers from NeMO to Terra, formerly called Firecloud
+- [Terra](https://github.com/nemoarchive/firecloud-client) Utility for data and metadata transfers between NeMO and Terra, formerly called Firecloud
 
 ## Funding
 - [NIH R24 MH114788](https://projectreporter.nih.gov/project_info_description.cfm?aid=9748608)
