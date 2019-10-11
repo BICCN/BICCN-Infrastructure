@@ -1,6 +1,6 @@
 # BCDC Cloud Computing Environment (Terra)
 ## Description
-We connect, develop, add value to, and train our community around the BCDC Cloud Computing Environment. This is a cloud-native environment that enables many functionality including cloud storage, scalable data processing pipelines, and horizontally scalable data-science environments.
+We connect, develop, add value to, and train our community around the BCDC Cloud Computing Environment. This is a cloud-native environment that enables many functionalities including cloud storage, scalable data processing pipelines, and horizontally scalable data-science environments.
 
 # Roles
 [Principal Investigator] Timothy Tickle (ttickle@broadinstitute.org)   
