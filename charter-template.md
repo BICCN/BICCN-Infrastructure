@@ -35,5 +35,13 @@ Purpose of the mailing list.
 [Name](https://github.com/organization/repository)   
 Purpose of the repository
 
+## Documentation
+[Name](https://example.org/docs)  
+Describe the scope of the documentation.
+
+## Resources
+[Name](https://example.org/resource)  
+Describe the resource.
+
 ## Funding
 Link to the NIH Reporter link or appropriate reference
