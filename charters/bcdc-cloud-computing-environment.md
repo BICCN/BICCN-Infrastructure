@@ -13,7 +13,7 @@ We connect, develop, add value to, and train our community around the BCDC Cloud
 
 ## Objectives
 - To create and maintain a cloud native, horizontally scalable environment for use by the BICCN Community.   
-- To work with community member to bring data processing pipelines used by the community or of value to the community into the cloud computing envrinment so they may be operated at scale.
+- To work with community members to bring data processing pipelines used by the community or of value to the community into the cloud computing environment so they may be operated at scale.
 - To leverage data-driven feedback from the consortium to update data processing pipelines focusing on improvement to both science and engineering performance. These updates will be versioned and documented.
 
 ## In-scope
