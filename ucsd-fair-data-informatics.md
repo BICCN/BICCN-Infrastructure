@@ -35,9 +35,8 @@ integrating neuroscience data, information, and knowledge.
   terminology/ontology service SciGraph
 * Work with the BICCN community to help ensure that infrastructure and tools conform to best
   practices for making data FAIR: Findable, Accessible, Interoperable and Reusable
-
-## Out-of-scope
-* TBD
+* Work with the BCDC to develop an information architecture to meet the needs of the BICCN consortium
+  and that interoperates with the larger ontology ecosystem.
 
 # Communication
 ## Mailing Lists
@@ -61,6 +60,9 @@ etc).
 ## Documentation
 [NIF Ontology Documentation](http://ontology.neuinfo.org/docs/)   
 Documentation for the NIF Ontology including neuron specific ontology documentation.
+
+## Resources
+[InterLex](http://interlex.org)
 
 ## Funding
 [A Community Resource For Single Cell Data In The Brain](https://projectreporter.nih.gov/project_info_description.cfm?aid=9415946)
