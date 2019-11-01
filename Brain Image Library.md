@@ -16,11 +16,12 @@ questions in lieu of contacting people listed here directly.
 [Primary Investigator] Alex Ropelewski (ropelews@psc.edu)  
 [MPI – Biologic Imaging] Simon Watkins (simon.watkins@pitt.edu)  
 [MPI – Molecular Biosensors and Imaging] Marcel Bruchez (bruchez@andrew.cmu.edu)  
-[Computational Hardware/Software] Greg Hood (ghood@psc.edu)  
 [Networking Support] Kathy Benninger (benninge@psc.edu)  
-[Image Data] Arthur Wetzel (awetzel@psc.edu)  
+[Computational Hardware/Software] Greg Hood (ghood@psc.edu)  
+[Systems Engineer] Derek Simmel (dsimmel@psc.edu)
 [Website/Submission Portal] Luke Tuite (ltuite96@gmail.com)  
 [Microscopy/Cell Biology] Alan Watson (alan.watson@pitt.edu)
+[Image Data] Arthur Wetzel (awetzel@psc.edu)  
 
 
 ## Objectives
