@@ -18,9 +18,9 @@ questions in lieu of contacting people listed here directly.
 [MPI – Molecular Biosensors and Imaging] Marcel Bruchez (bruchez@andrew.cmu.edu)  
 [Networking Support] Kathy Benninger (benninge@psc.edu)  
 [Computational Hardware/Software] Greg Hood (ghood@psc.edu)  
-[Systems Engineer] Derek Simmel (dsimmel@psc.edu)
+[Systems Engineer] Derek Simmel (dsimmel@psc.edu)  
 [Website/Submission Portal] Luke Tuite (ltuite96@gmail.com)  
-[Microscopy/Cell Biology] Alan Watson (alan.watson@pitt.edu)
+[Microscopy/Cell Biology] Alan Watson (alan.watson@pitt.edu)  
 [Image Data] Arthur Wetzel (awetzel@psc.edu)  
 
 
