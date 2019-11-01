@@ -1,7 +1,7 @@
 # Brain Image Library
 ## Description
 The Brain Image Library (BIL) is a national public resource enabling
-researchers to deposit, analyze, mine, share and interact with large brain
+researchers to deposit, analyze, mine, share, and interact with large brain
 image datasets.  BIL encompasses the deposition of datasets, the integration
 of datasets into a searchable web-accessible system, the redistribution of
 datasets, and a computational enclave to allow researchers to process
@@ -69,10 +69,10 @@ datasets)
 # Communication
 ## Help Desk
 For technical questions, assistance depositing files in BIL including
-networking support, assistance retrieving data deposited in BIL or to comment
+networking support, assistance retrieving data deposited in BIL, or to comment
 on our Web documentation.
 
-Non-time critical issues:
+Non-time critical issues:  
 Submit a help ticket. Send email to bil-support@psc.edu
 
 Time-critical issues:  
@@ -101,5 +101,5 @@ http://pathways.mbic.cmu.edu/
 
 ## Funding
 The Brain Image Library is supported by the National Institutes of Mental
-Health of the National Institutes of Health under award number R24-MH-114793.
+Health of the National Institutes of Health under award number R24-MH-114793.  
 [NIH Reporter Link](https://projectreporter.nih.gov/project_info_description.cfm?aid=9737988&icde=47261137&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball=)
