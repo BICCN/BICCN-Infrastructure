@@ -11,7 +11,7 @@ The Neuroscience Multi-Omic (NeMO) Archive is a data repository specifically foc
 - [Outreach Coordinator] Carlo Colantuoni (email@email.com)
 - [Project Manager] Robert Carter (email@email.com)
 - [Software Engineer] Victor Felix (email@email.com)
-- [Software Engineer] Jonathan Creabtree (email@email.com)
+- [Software Engineer] Jonathan Crabtree (email@email.com)
 - [Software Engineer] Shaun Adkins (email@email.com)
 - [Web Developer] Lance Nickel (email@email.com)
 
@@ -49,10 +49,10 @@ Describe the boundaries of this entity's efforts as defined by the specific user
 - Engage in community outreach to understand community needs, develop tools to meet these needs, and ensure the utilization of tools and data by the community
 
 ## Out-of-scope
-Describe specific user or technical needs which are not addressed to clarify the boundaries of the entity.
+Non-genomic non-sequence datatypes.
 
 ## Disambiguation [Optional]
-Describe relationships or commonalities with other current charters
+All metadata development will be fully in coordination, and highly complementary, with all other BICCN data archives and centers.
 
 # Communication
 - [NeMO Website](https://nemoarchive.org/)
