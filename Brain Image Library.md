@@ -25,15 +25,15 @@ questions in lieu of contacting people listed here directly.
 
 ## Objectives
 * Permanent repository for high-quality brain microscopy datasets
-    – Brain images of mouse, rat, human, other mammals and model organisms
-    – Targeted experiments, including connectivity between cells and
-      spatial transcriptomics ( *FISH)
-    – Historical collections
+    * Brain images of mouse, rat, human, other mammals and model organisms
+    * Targeted experiments, including connectivity between cells and
+      spatial transcriptomics (*FISH)
+    * Historical collections
 
 * Provide HPC computing capability local to the data for pre-submission
 data processing and post-submission exploration
-    – Enclave access to pre-release data
-    – Research access to restricted-access, secured data
+    * Enclave access to pre-release data
+    * Research access to restricted-access, secured data
 
 * Provide user access and support
 
@@ -46,7 +46,7 @@ data to BIL or access BIL services.
 are derived from or relate to image datasets housed at BIL.
 * Provide data-transfer support including network analysis to find transfer
 bottlenecks, a lendable portable disk (BrainBall) device and the ability to
-receive extremely large datasets directly on LTO8 tape.
+receive extremely large datasets directly on LTO-7/LTO-8 tapes.
 * Provide download access to all public datasets.  Current supported
 download methods include Globus and FTP.
 * Provide project-only access to brain-initiative collaborations, allowing
