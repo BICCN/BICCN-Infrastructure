@@ -19,6 +19,9 @@ Describe the boundaries of this entity's efforts as defined by the specific user
 ## Out-of-scope
 Describe specific user or technical needs which are not addressed to clarify the boundaries of the entity.
 
+## Disambiguation [Optional]
+Describe relationships or commonalities with other current charters
+
 # Communication
 ## Slack Channels
 [SlackApp/channel](https://slackapp.slack.com/messages/channel)   
@@ -31,3 +34,6 @@ Purpose of the mailing list.
 ## Github repositories
 [Name](https://github.com/organization/repository)   
 Purpose of the repository
+
+## Funding
+Link to the NIH Reporter link or appropriate reference
