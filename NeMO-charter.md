@@ -8,12 +8,12 @@ The Neuroscience Multi-Omic (NeMO) Archive is a data repository specifically foc
 - [Co-Investigator] Anup Mahurkar (amahurkar@som.umaryland.edu)
 - [Co-Investigator] Michelle Giglio (mgiglio@som.umaryland.edu)
 - [Analyst, Data Manager] Heather Creasy (hhuot@som.umaryland.edu)   
-- [Outreach Coordinator] Carlo Colantuoni (email@email.com)
-- [Project Manager] Robert Carter (email@email.com)
-- [Software Engineer] Victor Felix (email@email.com)
-- [Software Engineer] Jonathan Crabtree (email@email.com)
-- [Software Engineer] Shaun Adkins (email@email.com)
-- [Web Developer] Lance Nickel (email@email.com)
+- [Outreach Coordinator] Carlo Colantuoni (ccolantuoni@som.umaryland.edu)
+- [Project Manager] Robert Carter (rocarter@som.umaryland.edu)
+- [Software Engineer] Victor Felix (vfelix@som.umaryland.edu)
+- [Software Engineer] Jonathan Crabtree (jcrabtree@som.umaryland.edu)
+- [Software Engineer] Shaun Adkins (sadkins@som.umaryland.edu)
+- [Web Developer] Lance Nickel (lnickel@som.umaryland.edu)
 
 ## Definitions [Optional]
 Define entity specific terminology to ensure that your charter is comprehensible to new community members.
@@ -37,7 +37,7 @@ Our specific stated aims are:
 
 ## In-scope
 Describe the boundaries of this entity's efforts as defined by the specific user or technical needs [without implementation details].
-- Serve as a primary data archive for BICCN omics datasets described above
+- Serve as a primary data archive for BICCN omics, supporting access to and enrichment of integrated datasets within the BCDC Cell Registry, facilitating linkage between datasets, modalities and updates, integrating secondary analysis by extracting pipelines into the computing environment and publishing results back to the BCDC Cell Registry and data archives.
 - Provide a web portal for basic NeMO information
 - Support BICCN researchers in deposition of raw and processed data to NeMO archives
 - Perform basic checksum-based QC and reorganization of submitted data before public release
@@ -46,10 +46,11 @@ Describe the boundaries of this entity's efforts as defined by the specific user
 - Allow for easy exchange of raw and processed data between NeMO and Broad Institute's Terra Platform
 - Allow for easy exchange of data between NeMO and NeMO Analytics, a tool for analysis and visualization of omic data
 - Work with BCDC and consortium members to develop, establish, or adapt community generated metadata standards
+- Support API to access indexed sequence files from select dataset to enable the visualization and analysis of genomic data in third party system such as the BCDC Cell Registry
 - Engage in community outreach to understand community needs, develop tools to meet these needs, and ensure the utilization of tools and data by the community
 
 ## Out-of-scope
-Non-genomic non-sequence datatypes.
+- Non-genomic, non-sequence datatypes.
 
 ## Disambiguation [Optional]
 All metadata development will be fully in coordination, and highly complementary, with all other BICCN data archives and centers.
