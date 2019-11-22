@@ -58,7 +58,7 @@ specific datasets or images.
 operate directly on BIL-housed datasets.
 * Host custom portals that can operate directly on BIL-housed datasets.
 * Collaborate with investigators on establishing standardized formats,
-pipelines, and services that can be adopted and/or made available through
+pipelines, APIs, and services that can be adopted and/or made available through
 BIL.
 
 
