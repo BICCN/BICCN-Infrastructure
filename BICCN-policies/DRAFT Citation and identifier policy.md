@@ -1,15 +1,15 @@
-#Policy regarding support of data and resource citation and use of persistent identifiers
+# Policy regarding support of data and resource citation and use of persistent identifiers
 
-##Data citation
+## Data citation
 - Each repository should provide a FAIR landing page for each data set that includes the majority of elements from the [dkNET Rich Metadata](https://docs.google.com/document/d/1E1fA2AJDvvmxlS8g8yvpnt6BIayvZVOR7dMYe-hWIiU/edit#heading=h.z356s1so2kcy) recommendations
 - For each data set, the resource shall provide a full data citation as part of the landing page of the form:  
   -- authors, date published, title, version, repository, identifier
 
-##Resource citation
+## Resource citation
   - Each resource (data or software) produced by BICCN will receive an RRID  
   - Each repository will encourage the use of the appropriate RRID when citing use of the resource
   
-##Persistent identifiers
+## Persistent identifiers
   - Each respository will provision persistent identifiers for data sets and other research objects 
   - PIDs will resolve to landing pages with rich metadata describing the data set and how to cite it
   - Appropriate PID schemes are described in (TODO: reference other document when it is ready)
