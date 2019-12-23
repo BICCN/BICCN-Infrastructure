@@ -36,5 +36,5 @@ CCF: The CCF is the "common coordinate framework", a three-dimensional coordinat
 Describe the purpose of the channel.
 
 ## Github repositories
-[BCDC documentation](https://github.com/BICCN/BCDC-documentation)   
-NOTE: this repository is currently outdated.
+[BCDC Metadata](https://github.com/BICCN/BCDC-Metadata)
+This repository contains actual submitted metadata per quarter for the Sample Inventory, as well as metadata templates.
