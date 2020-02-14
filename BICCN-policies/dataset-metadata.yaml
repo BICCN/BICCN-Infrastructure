@@ -1,0 +1,85 @@
+identifier: REQUIRED ## Post upload (or during dandi organize)
+name: REQUIRED
+description: REQUIRED
+contributors: # required for author and contact
+- orcid: # REQUIRED
+  roles: # REQUIRED from https://casrai.org/credit/ + maintainer, contact
+  email: Recommended # filled from orcid
+  name: Recommended  # filled from orcid
+  affiliations: optional  # filled from orcid
+sponsors:
+- identifier: RECOMMENDED
+  name: REQUIRED
+  url: RECOMMENDED
+license:
+- url # REQUIRED
+keywords: [key1, key2,]
+consortium/project:
+- name: REQUIRED
+  identifier: REQUIRED #RRID
+associated_disease: # RECOMMENDED
+- name: REQUIRED
+  identifier: REQUIRED
+associated_anatomy: # RECOMMENDED
+- name: REQUIRED
+  identifier: REQUIRED
+protocols: # OPTIONAL
+- name: REQUIRED
+  identifier: REQUIRED
+ethicsApprovals: RECOMMENDED
+- name: REQUIRED # name of committee
+  country: REQUIRED
+  identifier: REQUIRED # protocol number
+access: OPTIONAL # 
+  status: REQUIRED # open, embargoed, restricted
+  access_request_url: REQUIRED for embargoed and restricted
+  access_contact_email: REQUIRED for embargoed and restricted
+language: RECOMMENDED
+
+## All metadata below could either be added after publication or
+## extracted from NWB files
+
+## Post publication (i.e. added by DANDI)
+version: REQUIRED
+releaseDate: REQUIRED
+associatedData:
+- name: REQUIRED
+  identifier: REQUIRED
+  repository: REQUIRED
+  url: REQUIRED
+publications:
+- url: REQUIRED # doi preferred
+  identifiers: RECOMMENDED # PMCID
+  relation: RECOMMENDED
+doi: REQUIRED
+url: REQUIRED
+repository: REQUIRED
+- name: REQUIRED
+  identifier: RRID/REQUIRED
+distribution:
+- DataDownload:
+  - contentURL:  REQUIRED
+    name: required
+    contentSize: REQUIRED
+    datePublished: REQUIRED
+    dateModified: REQUIRED
+    MeasurementType: OPTIONAL
+altid: # OPTIONAL
+- id1
+ 
+## NWB files + additional metadata provided
+variables_measured: OPTIONAL
+age:
+- minimum: REQUIRED
+  maximum: REQUIRED
+  units: REQUIRED
+- categorical: REQUIRED
+sex: REQUIRED
+organism:
+- species: REQUIRED
+  strain: REQUIRED
+  identifier: REQUIRED
+  vendor: OPTIONAL
+number_subjects: REQUIRED
+number_tissueSamples: RECOMMENDED
+number_cells: RECOMMENDED
