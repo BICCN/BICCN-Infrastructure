@@ -9,28 +9,28 @@
   "type": "object",
   "required": [
     "species",
-    "subject id",
-    "subject age",
-    "subject sex",
-    "subject date of birth",
-    "citation policy",
+    "subject_id",
+    "subject_age",
+    "subject_sex",
+    "subject_date_of_birth",
+    "citation_policy",
     "institution",
     "genotype",
-    "cre line",
-    "external solution recipe",
-    "recording temperature",
-    "electrode resistance",
-    "electrode internal solution recipe",
-    "specimen id",
-    "electrode id",
-    "stimulus electrode id",
-    "stimulus id",
-    "stimulus type name"
+    "cre_line",
+    "external_solution_recipe",
+    "recording_temperature",
+    "electrode_resistance",
+    "electrode_internal_solution_recipe",
+    "specimen_id",
+    "electrode_id",
+    "stimulus_electrode_id",
+    "stimulus_id",
+    "stimulus_type_name"
     ],
   "properties": {
     "species": {"type": "string"},
-    "subject id": {"type": "string"},
-    "subject age": {
+    "subject_id": {"type": "string"},
+    "subject_age": {
       "type": "object",
       "properties": {
         "value": {
@@ -44,101 +44,101 @@
         }
       }
     },
-    "subject sex": {"type":  "string"},
-    "subject date of birth": {"type":  "string", "format": "datetime"},
-    "specimen id": {"type": "string"},
+    "subject_sex": {"type":  "string"},
+    "subject_date_of_birth": {"type":  "string", "format": "datetime"},
+    "specimen_id": {"type": "string"},
     "citation_policy": {"type": "string"},
     "institution": {"type": "string"},
     "genotype": {"type": "string"},
-    "cre line": {"type": "string"},
-    "external solution recipe": {"type": "string"},
-    "recording temperature": {"type": "number", "description": "temperature of bath in Celsius"},
-    "electrode id": {"type": "string"},
-    "electrode resistance": {"type": "number", "description": "Electrode resistance in MOhms"},
-    "electrode internal solution recipe": {"type":  "string"},
-    "current clamp amp settings":
+    "cre_line": {"type": "string"},
+    "external_solution_recipe": {"type": "string"},
+    "recording_temperature": {"type": "number", "description": "temperature of bath in Celsius"},
+    "electrode_id": {"type": "string"},
+    "electrode_resistance": {"type": "number", "description": "Electrode resistance in MOhms"},
+    "electrode_internal_solution_recipe": {"type":  "string"},
+    "current_clamp_amp_settings":
     {
       "allOf": [
-        { "$ref": "#/definitions/amp settings" },
+        { "$ref": "#/definitions/amp_settings" },
         {
           "required": [
-            "bridge balance enabled",
-            "fast capacitance compensation enabled",
-            "leak current enabled",
-            "leak current value"
+            "bridge_balance_enabled",
+            "fast_capacitance_compensation_enabled",
+            "leak_current_enabled",
+            "leak_current_value"
           ],
           "properties": {
-            "bridge balance enabled": {"type": "boolean"},
-            "bridge balance value": {"type": "number", "description": "in MOhs"},
-            "fast capacitance compensation enabled": {"type": "boolean"},
-            "fast capacitance compensation value": {"type": "number", "description": "in MOhms"},
-            "leak current enabled": {"type": "boolean"},
-            "leak current value": {"type": "number"},
-            "pipette capacitance neutralization": {"type": "number", "description": "in pF"},
-            "pipette offset": {"type": "number", "description": "in nA"}
+            "bridge_balance_enabled": {"type": "boolean"},
+            "bridge_balance_value": {"type": "number", "description": "in MOhs"},
+            "fast_capacitance_compensation_enabled": {"type": "boolean"},
+            "fast_capacitance_compensation_value": {"type": "number", "description": "in MOhms"},
+            "leak_current_enabled": {"type": "boolean"},
+            "leak_current_value": {"type": "number"},
+            "pipette_capacitance_neutralization": {"type": "number", "description": "in pF"},
+            "pipette_offset": {"type": "number", "description": "in nA"}
           }
         }
       ]
     },
-    "voltage clamp amp settings":
+    "voltage_clamp amp_settings":
     {
       "allOf": [
-        { "$ref": "#/definitions/amp settings" },
+        { "$ref": "#/definitions/amp_settings" },
         {
           "required": [
-            "whole cell capacitance compensation enabled",
-            "electrode capacitance compensation enabled",
-            "series resistance correction enabled"
+            "whole_cell_capacitance_compensation_enabled",
+            "electrode_capacitance_compensation_enabled",
+            "series_resistance_correction_enabled"
           ],
           "properties":
           {
-            "whole cell capacitance compensation enabled": {"type": "boolean"},
-            "whole cell capacitance compensation value": {"type": "number", "description": "in pF"},
-            "whole cell capacitance compensation resistance": {"type": "number", "description": "in MOhms"},
-            "electrode capacitance compensation enabled": {"type": "boolean"},
-            "electrode capacitance compensation value - fast": {"type": "number", "description": "in pF"},
-            "electrode capacitance compensation value - slow": {"type": "number", "description": "in pF"},
-            "electrode capacitance compensation - fast - time constant": {"type": "number", "description": "in µs"},
-            "electrode capacitance compensation - slow - time constant": {"type": "number", "description": "in µs"},
-            "series resistance correction enabled": {"type": "boolean"},
-            "series resistance correction value": {"type": "number", "description": "ratio"},
-            "series resistance correction prediction": {"type": "number", "description": "ratio"},
-            "series resistance bandwidth": {"type": "number", "description": "in kHz"},
-            "pipette offset": {"type": "number", "description": "in mV"},
-            "leak subtraction": {"type": "number", "description": "in MOhms"}
+            "whole_cell_capacitance_compensation_enabled": {"type": "boolean"},
+            "whole_cell_capacitance_compensation_value": {"type": "number", "description": "in pF"},
+            "whole_cell_capacitance_compensation_resistance": {"type": "number", "description": "in MOhms"},
+            "electrode_capacitance_compensation_enabled": {"type": "boolean"},
+            "electrode_capacitance_compensation_value_fast": {"type": "number", "description": "in pF"},
+            "electrode_capacitance_compensation_value_slow": {"type": "number", "description": "in pF"},
+            "electrode_capacitance_compensation_fast_time_constant": {"type": "number", "description": "in µs"},
+            "electrode capacitance compensation_slow_time_constant": {"type": "number", "description": "in µs"},
+            "series_resistance_correction_enabled": {"type": "boolean"},
+            "series_resistance_correction_value": {"type": "number", "description": "ratio"},
+            "series_resistance_correction_prediction": {"type": "number", "description": "ratio"},
+            "series_resistance_bandwidth": {"type": "number", "description": "in kHz"},
+            "pipette_offset": {"type": "number", "description": "in mV"},
+            "leak_subtraction": {"type": "number", "description": "in MOhms"}
           }
         }
         ]
     },
-    "stimulus type name": {"type": "string"},
-    "stimulus id": {"type": "string"},
-    "stimulus electrode id": {"type": "string"},
-    "cell location": {"type": "string"},
-    "electrode-zeroed bias current": {"type": "string", "description": " in pA"},
-    "initial access resistance": {"type": "number", "description": "in MOhms"},
-    "tight seal resistance": {"type": "number", "description": "in MOhms"},
-    "input resistance": {"type": "number", "description": "in MOhms"}
+    "stimulus_type_name": {"type": "string"},
+    "stimulus_id": {"type": "string"},
+    "stimulus_electrode_id": {"type": "string"},
+    "cell_location": {"type": "string"},
+    "electrode_zeroed_bias_current": {"type": "string", "description": " in pA"},
+    "initial_access_resistance": {"type": "number", "description": "in MOhms"},
+    "tight_seal_resistance": {"type": "number", "description": "in MOhms"},
+    "input_resistance": {"type": "number", "description": "in MOhms"}
   },
   "definitions":
   {
-    "amp settings": {
+    "amp_settings": {
       "type": "object",
       "required": [
         "gain",
-        "output high pass cutoff frequency",
-        "output high pass filter type",
-        "output low pass cutoff frequency",
-        "output low pass filter type",
+        "output_high_pass_cutoff_frequency",
+        "output_high_pass_filter_type",
+        "output_low_pass_cutoff_frequency",
+        "output_low_pass_filter_type",
         "holding"
       ],
       "properties": {
         "gain": {"type": "number"},
-        "output low pass filter type": {"type": "string"},
-        "output low pass cutoff frequency": {"type": "number"},
-        "output high pass filter type": {"type": "string"},
-        "output high pass cutoff frequency": {"type": "number"},
+        "output_low_pass_filter_type": {"type": "string"},
+        "output_low_pass_cutoff_frequency": {"type": "number"},
+        "output_high_pass_filter_type": {"type": "string"},
+        "output_high_pass_cutoff_frequency": {"type": "number"},
         "holding": {"type": "number", "description": "in mV"},
-        "output zero/zero offset": {"type": "number", "description": "in mV"}
+        "output_zero/zero_offset": {"type": "number", "description": "in mV"}
       }
     }
   }
