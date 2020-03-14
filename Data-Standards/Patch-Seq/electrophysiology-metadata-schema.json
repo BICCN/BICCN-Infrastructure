@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "electrophysiology-metadata-schema.json",
+  "title": "Intracellular electrophysiology metadata",
+  "description": "Formal description of the IC Ephys Metadata List",
+  "author": "Ben Dichter",
+  "contact": "ben.dichter@gmail.com",
+  "version": "0.1.0",
+  "type": "object",
+  "required": [
+    "species",
+    "subject id",
+    "subject age",
+    "subject sex",
+    "subject date of birth",
+    "citation policy",
+    "institution",
+    "genotype",
+    "cre line",
+    "external solution recipe",
+    "recording temperature",
+    "electrode resistance",
+    "electrode internal solution recipe",
+    "specimen id",
+    "electrode id",
+    "stimulus electrode id",
+    "stimulus id",
+    "stimulus type name"
+    ],
+  "properties": {
+    "species": {"type": "string"},
+    "subject id": {"type": "string"},
+    "subject age": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "Using ISO 8601 duration"
+        },
+        "type": {
+          "type": "string",
+          "description": "Fetal age or birth age.",
+          "default": "birth"
+        }
+      }
+    },
+    "subject sex": {"type":  "string"},
+    "subject date of birth": {"type":  "string", "format": "datetime"},
+    "specimen id": {"type": "string"},
+    "citation_policy": {"type": "string"},
+    "institution": {"type": "string"},
+    "genotype": {"type": "string"},
+    "cre line": {"type": "string"},
+    "external solution recipe": {"type": "string"},
+    "recording temperature": {"type": "number", "description": "temperature of bath in Celsius"},
+    "electrode id": {"type": "string"},
+    "electrode resistance": {"type": "number", "description": "Electrode resistance in MOhms"},
+    "electrode internal solution recipe": {"type":  "string"},
+    "current clamp amp settings":
+    {
+      "allOf": [
+        { "$ref": "#/definitions/amp settings" },
+        {
+          "required": [
+            "bridge balance enabled",
+            "fast capacitance compensation enabled",
+            "leak current enabled",
+            "leak current value"
+          ],
+          "properties": {
+            "bridge balance enabled": {"type": "boolean"},
+            "bridge balance value": {"type": "number", "description": "in MOhs"},
+            "fast capacitance compensation enabled": {"type": "boolean"},
+            "fast capacitance compensation value": {"type": "number", "description": "in MOhms"},
+            "leak current enabled": {"type": "boolean"},
+            "leak current value": {"type": "number"},
+            "pipette capacitance neutralization": {"type": "number", "description": "in pF"},
+            "pipette offset": {"type": "number", "description": "in nA"}
+          }
+        }
+      ]
+    },
+    "voltage clamp amp settings":
+    {
+      "allOf": [
+        { "$ref": "#/definitions/amp settings" },
+        {
+          "required": [
+            "whole cell capacitance compensation enabled",
+            "electrode capacitance compensation enabled",
+            "series resistance correction enabled"
+          ],
+          "properties":
+          {
+            "whole cell capacitance compensation enabled": {"type": "boolean"},
+            "whole cell capacitance compensation value": {"type": "number", "description": "in pF"},
+            "whole cell capacitance compensation resistance": {"type": "number", "description": "in MOhms"},
+            "electrode capacitance compensation enabled": {"type": "boolean"},
+            "electrode capacitance compensation value - fast": {"type": "number", "description": "in pF"},
+            "electrode capacitance compensation value - slow": {"type": "number", "description": "in pF"},
+            "electrode capacitance compensation - fast - time constant": {"type": "number", "description": "in µs"},
+            "electrode capacitance compensation - slow - time constant": {"type": "number", "description": "in µs"},
+            "series resistance correction enabled": {"type": "boolean"},
+            "series resistance correction value": {"type": "number", "description": "ratio"},
+            "series resistance correction prediction": {"type": "number", "description": "ratio"},
+            "series resistance bandwidth": {"type": "number", "description": "in kHz"},
+            "pipette offset": {"type": "number", "description": "in mV"},
+            "leak subtraction": {"type": "number", "description": "in MOhms"}
+          }
+        }
+        ]
+    },
+    "stimulus type name": {"type": "string"},
+    "stimulus id": {"type": "string"},
+    "stimulus electrode id": {"type": "string"},
+    "cell location": {"type": "string"},
+    "electrode-zeroed bias current": {"type": "string", "description": " in pA"},
+    "initial access resistance": {"type": "number", "description": "in MOhms"},
+    "tight seal resistance": {"type": "number", "description": "in MOhms"},
+    "input resistance": {"type": "number", "description": "in MOhms"}
+  },
+  "definitions":
+  {
+    "amp settings": {
+      "type": "object",
+      "required": [
+        "gain",
+        "output high pass cutoff frequency",
+        "output high pass filter type",
+        "output low pass cutoff frequency",
+        "output low pass filter type",
+        "holding"
+      ],
+      "properties": {
+        "gain": {"type": "number"},
+        "output low pass filter type": {"type": "string"},
+        "output low pass cutoff frequency": {"type": "number"},
+        "output high pass filter type": {"type": "string"},
+        "output high pass cutoff frequency": {"type": "number"},
+        "holding": {"type": "number", "description": "in mV"},
+        "output zero/zero offset": {"type": "number", "description": "in mV"}
+      }
+    }
+  }
+}
