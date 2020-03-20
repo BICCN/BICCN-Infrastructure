@@ -68,10 +68,10 @@ distribution: # RECOMMENDED
 measurement_type: OPTIONAL # neural data types intracellular, extracellular, optical, 
 variable_measured: [ ] #OPTIONAL
 age: # If you don't have specific numeric ages, categorical information (e.g., juvenile) is required
-- minimum: REQUIRED
-  maximum: REQUIRED
-  units: REQUIRED
-- categorical: REQUIRED
+ minimum: REQUIRED
+ maximum: REQUIRED
+ units: REQUIRED
+ categorical: REQUIRED IF MIN/MAX/UNITS is missing
 sex: REQUIRED
 organism: # REQUIRED
 - species: REQUIRED
