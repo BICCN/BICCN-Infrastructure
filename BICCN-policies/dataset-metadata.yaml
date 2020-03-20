@@ -11,6 +11,7 @@ sponsors: # RECOMMENDED
 - identifier: RECOMMENDED
   name: REQUIRED
   url: RECOMMENDED
+  award_number: OPTIONAL
 license: [CC0-1.0, CC-BY-4.0, CC-BY-NC-4.0, PDDL-1.0] # One of these from https://licenses.opendefinition.org/#all-licenses
 keywords: [key1, key2,] # REQUIRED
 consortium/project: # RECOMMENDED
